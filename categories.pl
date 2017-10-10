@@ -45,47 +45,47 @@ category_id(42).
 category_id(43).
 category_id(44).
 
-category_name(1,amusement_park).
-category_name(2,animal_camps_and_shows).
-category_name(3,archeological).
-category_name(4,art_and_craft_centres).
-category_name(5,art_galleries).
-category_name(6,beaches_and_bay).
-category_name(7,caves).
-category_name(8,churches).
-category_name(9,cinema).
-category_name(10,concert_venue).
-category_name(11,cultural_show,_cultural_performance).
-category_name(12,dam,_reservoir,_lake).
-category_name(13,diving_site).
-category_name(14,educational_gardens).
-category_name(15,educational_museums).
-category_name(16,floating_market).
-category_name(17,flower_field).
-category_name(18,golf_course).
-category_name(19,green_travel).
-category_name(20,historical_houses).
-category_name(21,historical_sites_and_monuments).
-category_name(22,hot_spring).
-category_name(23,islands).
-category_name(24,landmarks_and_memorials).
-category_name(25,libraries).
-category_name(26,local_market).
-category_name(27,meditation).
-category_name(28,mosque).
-category_name(29,mountain).
-category_name(30,museums).
-category_name(31,national_parks_and_marine_reserves).
-category_name(32,night_market).
-category_name(33,outdoor_activity_and_adventure_sites).
-category_name(34,parks_and_gardens).
-category_name(35,river,_canal).
-category_name(36,royal_palace).
-category_name(37,sports_venues).
-category_name(38,temple).
-category_name(39,theater).
-category_name(40,training_centers).
-category_name(41,village,_community).
-category_name(42,waterfalls).
-category_name(43,world_war_ii_sites).
-category_name(44,zoos_and_aquariums).
+category_name(1,'Amusement Park').
+category_name(2,'Animal camps and shows').
+category_name(3,'Archeological').
+category_name(4,'Art and Craft Centres').
+category_name(5,'Art Galleries').
+category_name(6,'Beaches & Bay').
+category_name(7,'Caves').
+category_name(8,'Churches').
+category_name(9,'Cinema').
+category_name(10,'Concert venue').
+category_name(11,'Cultural Show, Cultural Performance').
+category_name(12,'Dam, Reservoir, Lake').
+category_name(13,'Diving site').
+category_name(14,'Educational gardens').
+category_name(15,'Educational museums').
+category_name(16,'Floating Market').
+category_name(17,'Flower Field').
+category_name(18,'Golf course').
+category_name(19,'Green Travel').
+category_name(20,'Historical Houses').
+category_name(21,'Historical Sites & Monuments').
+category_name(22,'Hot Spring').
+category_name(23,'Islands').
+category_name(24,'Landmarks and Memorials').
+category_name(25,'Libraries').
+category_name(26,'Local Market').
+category_name(27,'Meditation').
+category_name(28,'Mosque').
+category_name(29,'Mountain').
+category_name(30,'Museums').
+category_name(31,'National Parks & Marine Reserves').
+category_name(32,'Night Market').
+category_name(33,'Outdoor activity and adventure sites').
+category_name(34,'Parks & Gardens').
+category_name(35,'River, Canal').
+category_name(36,'Royal Palace').
+category_name(37,'Sports Venues').
+category_name(38,'Temple').
+category_name(39,'Theater').
+category_name(40,'Training centers').
+category_name(41,'Village, Community').
+category_name(42,'Waterfalls').
+category_name(43,'World War II Sites').
+category_name(44,'Zoos and Aquariums').

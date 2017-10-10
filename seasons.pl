@@ -16,21 +16,21 @@ season_id(13).
 season_id(14).
 season_id(15).
 
-season_name(1,winter).
-season_name(2,summer).
-season_name(3,rainy).
-season_name(4,winter).
-season_name(5,summer).
-season_name(6,rainy).
-season_name(7,winter).
-season_name(8,summer).
-season_name(9,rainy).
-season_name(10,winter).
-season_name(11,summer).
-season_name(12,rainy).
-season_name(13,winter).
-season_name(14,summer).
-season_name(15,rainy).
+season_name(1,'Winter').
+season_name(2,'Summer').
+season_name(3,'Rainy').
+season_name(4,'Winter').
+season_name(5,'Summer').
+season_name(6,'Rainy').
+season_name(7,'Winter').
+season_name(8,'Summer').
+season_name(9,'Rainy').
+season_name(10,'Winter').
+season_name(11,'Summer').
+season_name(12,'Rainy').
+season_name(13,'Winter').
+season_name(14,'Summer').
+season_name(15,'Rainy').
 
 season_average_temp(1,17).
 season_average_temp(2,28).

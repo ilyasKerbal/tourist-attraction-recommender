@@ -54,59 +54,59 @@ activity_id(51).
 activity_id(52).
 activity_id(53).
 
-activity_name(1,exploring_the_great_outdoors).
-activity_name(2,go_swimming).
-activity_name(3,watch_a_movie).
-activity_name(4,honeymoon).
-activity_name(5,meditate).
-activity_name(6,scuba_diving).
-activity_name(7,shopping).
-activity_name(8,cycling_adventures).
-activity_name(9,aromatherapy).
-activity_name(10,feed_an_animal).
-activity_name(11,get_a_massage).
-activity_name(12,sightseeing_tour).
-activity_name(13,rock_climbing).
-activity_name(14,concert).
-activity_name(15,play_golf).
-activity_name(16,learn_muay).
-activity_name(17,ice_skating).
-activity_name(18,elephant_riding).
-activity_name(19,grand_canyon).
-activity_name(20,yoga).
-activity_name(21,fishing).
-activity_name(22,walking_street).
-activity_name(23,discovery_wildlife).
-activity_name(24,photograph).
-activity_name(25,photograph).
-activity_name(26,photograph).
-activity_name(27,photograph).
-activity_name(28,photograph).
-activity_name(29,photograph).
-activity_name(30,photograph).
-activity_name(31,go_swimming).
-activity_name(32,reading).
-activity_name(33,playing).
-activity_name(34,archeological).
-activity_name(35,crafting).
-activity_name(36,drawing).
-activity_name(37,photograph).
-activity_name(38,praying).
-activity_name(39,photograph).
-activity_name(40,historical_trip).
-activity_name(41,volunteer_trip).
-activity_name(42,educational_trip).
-activity_name(43,major_movie_marathon).
-activity_name(44,shopping).
-activity_name(45,historical_trip).
-activity_name(46,photograph).
-activity_name(47,historical_trip).
-activity_name(48,pranking).
-activity_name(49,throw_bacon).
-activity_name(50,sunbathe).
-activity_name(51,photograph).
-activity_name(52,have_an_audience_with_royalty).
-activity_name(53,practice_the_dharma).
+activity_name(1,'Exploring the Great Outdoors').
+activity_name(2,'Go Swimming').
+activity_name(3,'Watch a Movie').
+activity_name(4,'Honeymoon').
+activity_name(5,'Meditate').
+activity_name(6,'Scuba Diving').
+activity_name(7,'Shopping').
+activity_name(8,'Cycling Adventures').
+activity_name(9,'Aromatherapy').
+activity_name(10,'Feed an Animal').
+activity_name(11,'Get a Massage').
+activity_name(12,'Sightseeing Tour').
+activity_name(13,'Rock Climbing').
+activity_name(14,'Concert').
+activity_name(15,'Play Golf').
+activity_name(16,'Learn Muay').
+activity_name(17,'Ice Skating').
+activity_name(18,'Elephant Riding').
+activity_name(19,'Grand Canyon').
+activity_name(20,'Yoga').
+activity_name(21,'Fishing').
+activity_name(22,'Walking street').
+activity_name(23,'Discovery wildlife').
+activity_name(24,'Photograph').
+activity_name(25,'Photograph').
+activity_name(26,'Photograph').
+activity_name(27,'Photograph').
+activity_name(28,'Photograph').
+activity_name(29,'Photograph').
+activity_name(30,'Photograph').
+activity_name(31,'Go Swimming').
+activity_name(32,'Reading').
+activity_name(33,'Playing').
+activity_name(34,'Archeological').
+activity_name(35,'Crafting').
+activity_name(36,'Drawing').
+activity_name(37,'Photograph').
+activity_name(38,'Praying').
+activity_name(39,'Photograph').
+activity_name(40,'Historical Trip').
+activity_name(41,'Volunteer Trip').
+activity_name(42,'Educational Trip').
+activity_name(43,'Major Movie Marathon').
+activity_name(44,'Shopping').
+activity_name(45,'Historical Trip').
+activity_name(46,'Photograph').
+activity_name(47,'Historical Trip').
+activity_name(48,'Pranking').
+activity_name(49,'Throw Bacon').
+activity_name(50,'Sunbathe').
+activity_name(51,'Photograph').
+activity_name(52,'Have an Audience with Royalty').
+activity_name(53,'Practice the Dharma').
 
 activity_min_age(1,18).
 activity_min_age(2,6).

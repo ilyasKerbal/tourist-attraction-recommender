@@ -217,222 +217,222 @@ tourist_attraction_id(214).
 tourist_attraction_id(215).
 tourist_attraction_id(216).
 
-tourist_attraction_name(1,wat_tham_saeng_phet).
-tourist_attraction_name(2,phusa_dok_bua).
-tourist_attraction_name(3,puttha_utthayan_and_pra_mongkol_ming_muang).
-tourist_attraction_name(4,wat_muang).
-tourist_attraction_name(5,nai_dok_nai_thongkaeo_monument).
-tourist_attraction_name(6,wat_pa_mok_worawihan).
-tourist_attraction_name(7,grand_palace).
-tourist_attraction_name(8,bankok_float_center).
-tourist_attraction_name(9,safari_world).
-tourist_attraction_name(10,ananta_samakhom_throne_hall).
-tourist_attraction_name(11,asiatique_the_riverfront).
-tourist_attraction_name(12,terminal_21).
-tourist_attraction_name(13,tham_phra_waterfall).
-tourist_attraction_name(14,phu_thok).
-tourist_attraction_name(15,chet_si_waterfall).
-tourist_attraction_name(16,prasat_muang_tam).
-tourist_attraction_name(17,nong_hong_sanctuary).
-tourist_attraction_name(18,phanom_rung_historical_park).
-tourist_attraction_name(19,wat_sothon_wararam_worawihan).
-tourist_attraction_name(20,mini_murrah_farm).
-tourist_attraction_name(21,koh_keaw_water_park).
-tourist_attraction_name(22,chai_nat_bird_park).
-tourist_attraction_name(23,wat_tha_sung).
-tourist_attraction_name(24,egg_museum).
-tourist_attraction_name(25,mo_hin_khao).
-tourist_attraction_name(26,pha_iang_waterfall).
-tourist_attraction_name(27,prowaen_waterpark).
-tourist_attraction_name(28,namtok_phlio_national_park).
-tourist_attraction_name(29,oasis_sea_world).
-tourist_attraction_name(30,phliu_waterfall).
-tourist_attraction_name(31,chiang_mai_night_safari).
-tourist_attraction_name(32,wat_phra_that_doi_suthep).
-tourist_attraction_name(33,art_in_paradise).
-tourist_attraction_name(34,wiang_kum_kam).
-tourist_attraction_name(35,elephant_nature_park).
-tourist_attraction_name(36,central_festival_chiang_mai).
-tourist_attraction_name(37,wat_rong_khun).
-tourist_attraction_name(38,pong_phra_bat_hot_spring).
-tourist_attraction_name(39,doi_tung).
-tourist_attraction_name(40,nong_nooch_tropical_botanical_garden).
-tourist_attraction_name(41,sriracha_tiger_zoo).
-tourist_attraction_name(42,jomtien_beach).
-tourist_attraction_name(43,ko_lan).
-tourist_attraction_name(44,mini_siam).
-tourist_attraction_name(45,pattaya_dolphin_world).
-tourist_attraction_name(46,ngao_waterfall_national_park).
-tourist_attraction_name(47,kapo_waterfall_forest_park).
-tourist_attraction_name(48,mu_ko_chumphon_national_park).
-tourist_attraction_name(49,sirindhorn_museum).
-tourist_attraction_name(50,lam_pao_dam).
-tourist_attraction_name(51,phu_faek_forest_park).
-tourist_attraction_name(52,kamphaeng_phet_historical_park).
-tourist_attraction_name(53,khlong_lan_waterfall).
-tourist_attraction_name(54,chong_yen).
-tourist_attraction_name(55,erawan_national_park).
-tourist_attraction_name(56,mueang_sing_historical_park).
-tourist_attraction_name(57,sai_yok_national_park).
-tourist_attraction_name(58,dino_water_park).
-tourist_attraction_name(59,bueng_kaen_nakhon).
-tourist_attraction_name(60,phra_mahathat_kaen_nakhon).
-tourist_attraction_name(61,phi_phi_islands).
-tourist_attraction_name(62,khao_phanom_bencha_national_park).
-tourist_attraction_name(63,phra_nang_cave_beach).
-tourist_attraction_name(64,mu_ko_lanta_national_park).
-tourist_attraction_name(65,tha_pom_klong_song_nam).
-tourist_attraction_name(66,namtok_ron).
-tourist_attraction_name(67,wiang_kosai_national_park).
-tourist_attraction_name(68,thai_elephant_conservation_center).
-tourist_attraction_name(69,wat_phra_that_lampang_luang).
-tourist_attraction_name(70,banthi_tour).
-tourist_attraction_name(71,leelawadee_thai_massage_).
-tourist_attraction_name(72,old_city_wall).
-tourist_attraction_name(73,phu_kradueng_national_park).
-tourist_attraction_name(74,phu_ruea_national_park).
-tourist_attraction_name(75,suan_hin_pha_ngam).
-tourist_attraction_name(76,pa_sak_jolasid_dam).
-tourist_attraction_name(77,ban_chao_wichayen).
-tourist_attraction_name(78,lopburi_zoo).
-tourist_attraction_name(79,namtok_mae_surin_national_park).
-tourist_attraction_name(80,memorial_bridge).
-tourist_attraction_name(81,pang_oung).
-tourist_attraction_name(82,phra_that_na_dun).
-tourist_attraction_name(83,ban_chiang_hian_museum).
-tourist_attraction_name(84,isan_cultural_and_art_center).
-tourist_attraction_name(85,chao_mae_song_nang_phi_nong_shrine).
-tourist_attraction_name(86,wat_sri_boonrueng).
-tourist_attraction_name(87,indochina_market).
-tourist_attraction_name(88,ganesha_park).
-tourist_attraction_name(89,khun_dan_prakan_chon_dam_museum).
-tourist_attraction_name(90,khlong_sip_ha_plant_market).
-tourist_attraction_name(91,wat_phra_pathom_chedi).
-tourist_attraction_name(92,sanam_chandra_palace).
-tourist_attraction_name(93,don_wai_market).
-tourist_attraction_name(94,mekong_underwater_world).
-tourist_attraction_name(95,paya_sri_satta_nakarat).
-tourist_attraction_name(96,wat_maha_that_temple).
-tourist_attraction_name(97,prasat_hin_phimai).
-tourist_attraction_name(98,thao_suranaree).
-tourist_attraction_name(99,sawan_park).
-tourist_attraction_name(100,wat_kiriwong_nakhon_sawan).
-tourist_attraction_name(101,bo_ya_cave).
-tourist_attraction_name(102,khanom_beach).
-tourist_attraction_name(103,kiriwong_village).
-tourist_attraction_name(104,wat_phumin).
-tourist_attraction_name(105,nan_national_museum).
-tourist_attraction_name(106,nan_noble_house).
-tourist_attraction_name(107,sungai_kolok).
-tourist_attraction_name(108,narathat_beach).
-tourist_attraction_name(109,pc_cowboy_town).
-tourist_attraction_name(110,wat_tham_klong_phen).
-tourist_attraction_name(111,million_year_old_shell_fossils).
-tourist_attraction_name(112,wat_pho_chai).
-tourist_attraction_name(113,issan_rum_distillery).
-tourist_attraction_name(114,nong_khai_aquarium).
-tourist_attraction_name(115,nonthaburi_market).
-tourist_attraction_name(116,fantasia_lagoon_water_park).
-tourist_attraction_name(117,wat_sangkhathan).
-tourist_attraction_name(118,dreamworld).
-tourist_attraction_name(119,talad_thai).
-tourist_attraction_name(120,chokchai_museum).
-tourist_attraction_name(121,lim_ko_niao_shrine).
-tourist_attraction_name(122,krue_sae_mosque).
-tourist_attraction_name(123,phang_nga_elephant_park).
-tourist_attraction_name(124,phang_nga_bay).
-tourist_attraction_name(125,white_sand_beach).
-tourist_attraction_name(126,thale_noi_waterfowl_park).
-tourist_attraction_name(127,khao_chaison_hot_spring).
-tourist_attraction_name(128,nhanmoddang_rafting).
-tourist_attraction_name(129,wat_analayo_thipphayaram).
-tourist_attraction_name(130,wat_tilok_aram).
-tourist_attraction_name(131,wat_phra_kaeo).
-tourist_attraction_name(132,buddha_thamaracha).
-tourist_attraction_name(133,chao_samran).
-tourist_attraction_name(134,wat_sa_bua).
-tourist_attraction_name(135,wat_tha_luang).
-tourist_attraction_name(136,wat_sukhumaram).
-tourist_attraction_name(137,phra_si_ratana_temple).
-tourist_attraction_name(138,phra_buddha_chinnarat).
-tourist_attraction_name(139,wat_panan_choeng).
-tourist_attraction_name(140,wat_yai_chai_mang_khon).
-tourist_attraction_name(141,khum_chao_luang).
-tourist_attraction_name(142,pratubjai_house).
-tourist_attraction_name(143,wat_phra_non).
-tourist_attraction_name(144,super_divers).
-tourist_attraction_name(145,sharkey_scuba).
-tourist_attraction_name(146,ton_mai_spa).
-tourist_attraction_name(147,dasada_gallery).
-tourist_attraction_name(148,lord_buddhas_footprints).
-tourist_attraction_name(149,cicada_market).
-tourist_attraction_name(150,ao_manao).
-tourist_attraction_name(151,hua_hin_beach).
-tourist_attraction_name(152,rakswarin_hot_springs).
-tourist_attraction_name(153,the_smiling_seahourse).
-tourist_attraction_name(154,alpacahill).
-tourist_attraction_name(155,coro_field).
-tourist_attraction_name(156,ao_prao_beach).
-tourist_attraction_name(157,sai_kaew_beach).
-tourist_attraction_name(158,rayong_aquarium).
-tourist_attraction_name(159,wat_pha_nam_yoi).
-tourist_attraction_name(160,somdet_phra_srinakarindra_park).
-tourist_attraction_name(161,bueng_phlan_chai).
-tourist_attraction_name(162,rong_kluea_market).
-tourist_attraction_name(163,prasat_sdok_kok_thom).
-tourist_attraction_name(164,nong_han).
-tourist_attraction_name(165,wat_tham_phae_dan).
-tourist_attraction_name(166,farm_hug).
-tourist_attraction_name(167,ancient_city).
-tourist_attraction_name(168,erawan_museum).
-tourist_attraction_name(169,bang_krachao).
-tourist_attraction_name(170,wat_tha_mai).
-tourist_attraction_name(171,phan_thai_norasing_shrine).
-tourist_attraction_name(172,don_hoi_lot).
-tourist_attraction_name(173,maeklong_railway_market).
-tourist_attraction_name(174,amphawa_floating_market).
-tourist_attraction_name(175,king_rama_ii_memorial_park).
-tourist_attraction_name(176,krok_e_dok_waterfall).
-tourist_attraction_name(177,bigtae_garden).
-tourist_attraction_name(178,sunrise_beach).
-tourist_attraction_name(179,pattaya_beach).
-tourist_attraction_name(180,ko_bulon_le).
-tourist_attraction_name(181,wat_ampawan).
-tourist_attraction_name(182,wat_sai).
-tourist_attraction_name(183,wat_larn_kuad___beer_bottle_temple).
-tourist_attraction_name(184,si_sa_ket_aquarium).
-tourist_attraction_name(185,mermaid_statue).
-tourist_attraction_name(186,tang_kuan_hill).
-tourist_attraction_name(187,sukhothai_historical_park).
-tourist_attraction_name(188,wat_si_chum).
-tourist_attraction_name(189,dragon_descendants_museum).
-tourist_attraction_name(190,banharn_jamsai_tower).
-tourist_attraction_name(191,night_market).
-tourist_attraction_name(192,khao_sok_national_park).
-tourist_attraction_name(193,ban_tha_sawang_silk_weaving_village).
-tourist_attraction_name(194,city_pillar_shrine).
-tourist_attraction_name(195,thi_lo_su_waterfall).
-tourist_attraction_name(196,thai_myanmar_friendship_bridge).
-tourist_attraction_name(197,hot_springs_maekasa).
-tourist_attraction_name(198,morakot_cave).
-tourist_attraction_name(199,peninsular_botanic_garden).
-tourist_attraction_name(200,khlong_prao_beach).
-tourist_attraction_name(201,klong_plu_waterfall).
-tourist_attraction_name(202,wat_phra_that_nong_bua).
-tourist_attraction_name(203,wat_thung_si_mueang).
-tourist_attraction_name(204,wat_nong_pah_pong).
-tourist_attraction_name(205,ud_night_market).
-tourist_attraction_name(206,ban_chiang_museum).
-tourist_attraction_name(207,centralplaza_udonthani).
-tourist_attraction_name(208,sakae_krang_river).
-tourist_attraction_name(209,ko_thepho).
-tourist_attraction_name(210,sirikit_dam).
-tourist_attraction_name(211,phu_soi_dao_national_park).
-tourist_attraction_name(212,piyamit_tunnels).
-tourist_attraction_name(213,worlds_largest_mailbox).
-tourist_attraction_name(214,winter_flower_garden).
-tourist_attraction_name(215,phaya_thaen_public_park).
-tourist_attraction_name(216,wat_pa_keong).
+tourist_attraction_name(1,'Wat Tham Saeng Phet').
+tourist_attraction_name(2,'Phusa Dok Bua').
+tourist_attraction_name(3,'Puttha Utthayan and Pra Mongkol Ming Muang').
+tourist_attraction_name(4,'Wat Muang').
+tourist_attraction_name(5,'Nai Dok Nai Thongkaeo Monument').
+tourist_attraction_name(6,'Wat Pa Mok Worawihan').
+tourist_attraction_name(7,'Grand Palace').
+tourist_attraction_name(8,'Bankok Float Center').
+tourist_attraction_name(9,'Safari World').
+tourist_attraction_name(10,'Ananta Samakhom Throne Hall').
+tourist_attraction_name(11,'Asiatique The Riverfront').
+tourist_attraction_name(12,'Terminal 21').
+tourist_attraction_name(13,'Tham Phra Waterfall').
+tourist_attraction_name(14,'Phu Thok').
+tourist_attraction_name(15,'Chet Si Waterfall').
+tourist_attraction_name(16,'Prasat Muang Tam').
+tourist_attraction_name(17,'Nong Hong Sanctuary').
+tourist_attraction_name(18,'Phanom Rung Historical Park').
+tourist_attraction_name(19,'Wat Sothon Wararam Worawihan').
+tourist_attraction_name(20,'Mini Murrah Farm').
+tourist_attraction_name(21,'Koh Keaw Water Park').
+tourist_attraction_name(22,'Chai Nat Bird Park').
+tourist_attraction_name(23,'Wat Tha Sung').
+tourist_attraction_name(24,'Egg Museum').
+tourist_attraction_name(25,'Mo Hin Khao').
+tourist_attraction_name(26,'Pha Iang Waterfall').
+tourist_attraction_name(27,'Prowaen Waterpark').
+tourist_attraction_name(28,'Namtok Phlio National Park').
+tourist_attraction_name(29,'Oasis Sea World').
+tourist_attraction_name(30,'Phliu Waterfall').
+tourist_attraction_name(31,'Chiang Mai Night Safari').
+tourist_attraction_name(32,'Wat Phra That Doi Suthep').
+tourist_attraction_name(33,'Art in Paradise').
+tourist_attraction_name(34,'Wiang Kum Kam').
+tourist_attraction_name(35,'Elephant Nature Park').
+tourist_attraction_name(36,'Central Festival Chiang Mai').
+tourist_attraction_name(37,'Wat Rong Khun').
+tourist_attraction_name(38,'Pong Phra Bat Hot Spring').
+tourist_attraction_name(39,'Doi Tung').
+tourist_attraction_name(40,'Nong Nooch Tropical Botanical Garden').
+tourist_attraction_name(41,'Sriracha Tiger Zoo').
+tourist_attraction_name(42,'Jomtien Beach').
+tourist_attraction_name(43,'Ko Lan').
+tourist_attraction_name(44,'Mini Siam').
+tourist_attraction_name(45,'Pattaya Dolphin World').
+tourist_attraction_name(46,'Ngao Waterfall National Park').
+tourist_attraction_name(47,'Kapo Waterfall Forest Park').
+tourist_attraction_name(48,'Mu Ko Chumphon National Park').
+tourist_attraction_name(49,'Sirindhorn Museum').
+tourist_attraction_name(50,'Lam Pao Dam').
+tourist_attraction_name(51,'Phu Faek Forest Park').
+tourist_attraction_name(52,'Kamphaeng Phet Historical Park').
+tourist_attraction_name(53,'Khlong Lan Waterfall').
+tourist_attraction_name(54,'Chong Yen').
+tourist_attraction_name(55,'Erawan National Park').
+tourist_attraction_name(56,'Mueang Sing Historical Park').
+tourist_attraction_name(57,'Sai Yok National Park').
+tourist_attraction_name(58,'Dino Water Park').
+tourist_attraction_name(59,'Bueng Kaen Nakhon').
+tourist_attraction_name(60,'Phra Mahathat Kaen Nakhon').
+tourist_attraction_name(61,'Phi Phi Islands').
+tourist_attraction_name(62,'Khao Phanom Bencha National Park').
+tourist_attraction_name(63,'Phra Nang Cave Beach').
+tourist_attraction_name(64,'Mu Ko Lanta National Park').
+tourist_attraction_name(65,'Tha Pom Klong Song Nam').
+tourist_attraction_name(66,'Namtok Ron').
+tourist_attraction_name(67,'Wiang Kosai National Park').
+tourist_attraction_name(68,'Thai Elephant Conservation Center').
+tourist_attraction_name(69,'Wat Phra That Lampang Luang').
+tourist_attraction_name(70,'Banthi Tour').
+tourist_attraction_name(71,'Leelawadee Thai Massage ').
+tourist_attraction_name(72,'Old City Wall').
+tourist_attraction_name(73,'Phu Kradueng National Park').
+tourist_attraction_name(74,'Phu Ruea National Park').
+tourist_attraction_name(75,'Suan Hin Pha Ngam').
+tourist_attraction_name(76,'Pa Sak Jolasid Dam').
+tourist_attraction_name(77,'Ban Chao Wichayen').
+tourist_attraction_name(78,'Lopburi Zoo').
+tourist_attraction_name(79,'Namtok Mae Surin National Park').
+tourist_attraction_name(80,'Memorial Bridge').
+tourist_attraction_name(81,'Pang Oung').
+tourist_attraction_name(82,'Phra That Na Dun').
+tourist_attraction_name(83,'Ban Chiang Hian Museum').
+tourist_attraction_name(84,'Isan Cultural & Art Center').
+tourist_attraction_name(85,'Chao Mae Song Nang Phi Nong Shrine').
+tourist_attraction_name(86,'Wat Sri Boonrueng').
+tourist_attraction_name(87,'Indochina Market').
+tourist_attraction_name(88,'Ganesha Park').
+tourist_attraction_name(89,'Khun Dan Prakan Chon Dam Museum').
+tourist_attraction_name(90,'Khlong Sip Ha Plant Market').
+tourist_attraction_name(91,'Wat Phra Pathom Chedi').
+tourist_attraction_name(92,'Sanam Chandra Palace').
+tourist_attraction_name(93,'Don Wai Market').
+tourist_attraction_name(94,'Mekong Underwater World').
+tourist_attraction_name(95,'Paya Sri Satta Nakarat').
+tourist_attraction_name(96,'Wat Maha That Temple').
+tourist_attraction_name(97,'Prasat Hin Phimai').
+tourist_attraction_name(98,'Thao Suranaree').
+tourist_attraction_name(99,'Sawan Park').
+tourist_attraction_name(100,'Wat Kiriwong Nakhon Sawan').
+tourist_attraction_name(101,'Bo Ya Cave').
+tourist_attraction_name(102,'Khanom Beach').
+tourist_attraction_name(103,'Kiriwong Village').
+tourist_attraction_name(104,'Wat Phumin').
+tourist_attraction_name(105,'Nan National Museum').
+tourist_attraction_name(106,'Nan Noble House').
+tourist_attraction_name(107,'Sungai Kolok').
+tourist_attraction_name(108,'Narathat Beach').
+tourist_attraction_name(109,'PC Cowboy Town').
+tourist_attraction_name(110,'Wat Tham Klong Phen').
+tourist_attraction_name(111,'Million-year-old Shell Fossils').
+tourist_attraction_name(112,'Wat Pho Chai').
+tourist_attraction_name(113,'Issan Rum Distillery').
+tourist_attraction_name(114,'Nong Khai Aquarium').
+tourist_attraction_name(115,'Nonthaburi Market').
+tourist_attraction_name(116,'Fantasia Lagoon Water Park').
+tourist_attraction_name(117,'Wat Sangkhathan').
+tourist_attraction_name(118,'Dreamworld').
+tourist_attraction_name(119,'Talad Thai').
+tourist_attraction_name(120,'Chokchai Museum').
+tourist_attraction_name(121,'Lim ko Niao Shrine').
+tourist_attraction_name(122,'Krue Sae Mosque').
+tourist_attraction_name(123,'Phang Nga Elephant Park').
+tourist_attraction_name(124,'Phang Nga Bay').
+tourist_attraction_name(125,'White Sand Beach').
+tourist_attraction_name(126,'Thale Noi Waterfowl Park').
+tourist_attraction_name(127,'Khao Chaison Hot Spring').
+tourist_attraction_name(128,'Nhanmoddang Rafting').
+tourist_attraction_name(129,'Wat Analayo Thipphayaram').
+tourist_attraction_name(130,'Wat Tilok Aram').
+tourist_attraction_name(131,'Wat Phra Kaeo').
+tourist_attraction_name(132,'Buddha Thamaracha').
+tourist_attraction_name(133,'Chao Samran').
+tourist_attraction_name(134,'Wat Sa Bua').
+tourist_attraction_name(135,'Wat Tha Luang').
+tourist_attraction_name(136,'Wat Sukhumaram').
+tourist_attraction_name(137,'Phra Si Ratana Temple').
+tourist_attraction_name(138,'Phra Buddha Chinnarat').
+tourist_attraction_name(139,'Wat Panan Choeng').
+tourist_attraction_name(140,'Wat Yai Chai Mang Khon').
+tourist_attraction_name(141,'Khum Chao Luang').
+tourist_attraction_name(142,'Pratubjai House').
+tourist_attraction_name(143,'Wat Phra Non').
+tourist_attraction_name(144,'Super Divers').
+tourist_attraction_name(145,'Sharkey Scuba').
+tourist_attraction_name(146,'Ton Mai Spa').
+tourist_attraction_name(147,'Dasada Gallery').
+tourist_attraction_name(148,'Lord Buddhas FootPrints').
+tourist_attraction_name(149,'Cicada Market').
+tourist_attraction_name(150,'Ao Manao').
+tourist_attraction_name(151,'Hua Hin Beach').
+tourist_attraction_name(152,'Rakswarin Hot Springs').
+tourist_attraction_name(153,'The Smiling Seahourse').
+tourist_attraction_name(154,'AlpacaHill').
+tourist_attraction_name(155,'Coro Field').
+tourist_attraction_name(156,'Ao Prao Beach').
+tourist_attraction_name(157,'Sai Kaew Beach').
+tourist_attraction_name(158,'Rayong Aquarium').
+tourist_attraction_name(159,'Wat Pha Nam Yoi').
+tourist_attraction_name(160,'Somdet Phra Srinakarindra Park').
+tourist_attraction_name(161,'Bueng Phlan Chai').
+tourist_attraction_name(162,'Rong Kluea Market').
+tourist_attraction_name(163,'Prasat Sdok Kok Thom').
+tourist_attraction_name(164,'Nong Han').
+tourist_attraction_name(165,'Wat Tham Phae Dan').
+tourist_attraction_name(166,'Farm Hug').
+tourist_attraction_name(167,'Ancient City').
+tourist_attraction_name(168,'Erawan Museum').
+tourist_attraction_name(169,'Bang Krachao').
+tourist_attraction_name(170,'Wat Tha Mai').
+tourist_attraction_name(171,'Phan Thai Norasing Shrine').
+tourist_attraction_name(172,'Don Hoi Lot').
+tourist_attraction_name(173,'Maeklong Railway Market').
+tourist_attraction_name(174,'Amphawa Floating Market').
+tourist_attraction_name(175,'King Rama II Memorial Park').
+tourist_attraction_name(176,'Krok E-Dok Waterfall').
+tourist_attraction_name(177,'BigTae Garden').
+tourist_attraction_name(178,'Sunrise Beach').
+tourist_attraction_name(179,'Pattaya Beach').
+tourist_attraction_name(180,'Ko Bulon Le').
+tourist_attraction_name(181,'Wat Ampawan').
+tourist_attraction_name(182,'Wat Sai').
+tourist_attraction_name(183,'Wat Larn Kuad - Beer Bottle Temple').
+tourist_attraction_name(184,'Si Sa Ket Aquarium').
+tourist_attraction_name(185,'Mermaid Statue').
+tourist_attraction_name(186,'Tang Kuan Hill').
+tourist_attraction_name(187,'Sukhothai Historical Park').
+tourist_attraction_name(188,'Wat Si Chum').
+tourist_attraction_name(189,'Dragon Descendants Museum').
+tourist_attraction_name(190,'Banharn Jamsai Tower').
+tourist_attraction_name(191,'Night Market').
+tourist_attraction_name(192,'Khao Sok National Park').
+tourist_attraction_name(193,'Ban Tha Sawang Silk Weaving Village').
+tourist_attraction_name(194,'City Pillar Shrine').
+tourist_attraction_name(195,'Thi Lo Su Waterfall').
+tourist_attraction_name(196,'Thai-Myanmar Friendship Bridge').
+tourist_attraction_name(197,'Hot Springs Maekasa').
+tourist_attraction_name(198,'Morakot Cave').
+tourist_attraction_name(199,'Peninsular Botanic Garden').
+tourist_attraction_name(200,'Khlong Prao Beach').
+tourist_attraction_name(201,'Klong Plu Waterfall').
+tourist_attraction_name(202,'Wat Phra That Nong Bua').
+tourist_attraction_name(203,'Wat Thung Si Mueang').
+tourist_attraction_name(204,'Wat Nong Pah Pong').
+tourist_attraction_name(205,'UD Night Market').
+tourist_attraction_name(206,'Ban Chiang Museum').
+tourist_attraction_name(207,'CentralPlaza Udonthani').
+tourist_attraction_name(208,'Sakae Krang River').
+tourist_attraction_name(209,'Ko Thepho').
+tourist_attraction_name(210,'Sirikit Dam').
+tourist_attraction_name(211,'Phu Soi Dao National Park').
+tourist_attraction_name(212,'Piyamit Tunnels').
+tourist_attraction_name(213,'Worlds Largest Mailbox').
+tourist_attraction_name(214,'Winter Flower Garden').
+tourist_attraction_name(215,'Phaya Thaen Public Park').
+tourist_attraction_name(216,'Wat Pa Keong').
 
 tourist_attraction_opening_time(1,8.00).
 tourist_attraction_opening_time(2,8.00).
