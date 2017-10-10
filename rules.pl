@@ -1,9 +1,4 @@
-:- use_module(regions,[]).
-:- use_module(provinces,[]).
-:- use_module(tourist_attractions,[]).
-:- use_module(categories,[]).
-:- use_module(activities,[]).
-:- use_module(seasons,[]).
+:- module(rules,[]).
 
 suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category,Rating) :-
   activities:activity_in_category(ActivityID,CategoryID),
@@ -31,18 +26,18 @@ suggest_from_activity(Activity,TouristAttraction,Province,Region,Category,Rating
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category,Rating).
 
 time_from_opening_time(OpeningTime,Time) :-
-  (OpeningTime=<5.00
-    -> Time=early_morning
-  ; OpeningTime=<10.00
-    -> Time=morning
-  ; OpeningTime=<13.00
-    -> Time=noon
-  ; OpeningTime=<16.00
-    -> Time=afternoon
-  ; OpeningTime=<19.00
-    -> Time=evening
+  (OpeningTime=<5.00 ->
+    Time='Early Morning'
+  ; OpeningTime=<10.00 ->
+    Time='Morning'
+  ; OpeningTime=<13.00 ->
+    Time='Noon'
+  ; OpeningTime=<16.00 ->
+    Time='Afternoon'
+  ; OpeningTime=<19.00 ->
+    Time='Evening'
   ;
-    Time=night
+    Time='Night'
   ).
 
 suggest_from_opening_hours(Time,TouristAttraction,Province,Region,Category,Rating,OpeningTimeFormatted,ClosingTimeFormatted) :-
@@ -93,16 +88,16 @@ suggest_from_opening_now(TouristAttraction,Province,Region,Category,Rating,Openi
   suggest_from_tourist_attraction(TouristAttraction,Province,Region,Category,Rating).
 
 age_group_from_age(Age,AgeGroup) :-
-  (Age<13
-    -> AgeGroup=kids
-  ; Age<20
-    -> AgeGroup=teenagers
-  ; Age<25
-    -> AgeGroup=young_adults
-  ; Age<60
-    -> AgeGroup=middle_ages
+  (Age<13 ->
+    AgeGroup='Kids'
+  ; Age<20 ->
+    AgeGroup='Teenagers'
+  ; Age<25 ->
+    AgeGroup='Young Adults'
+  ; Age<60 ->
+    AgeGroup='Middle Aged'
   ;
-    AgeGroup=elders
+    AgeGroup='Elders'
   ).
 
 suggest_from_age(AgeGroup,TouristAttraction,Province,Region,Category,Rating,MinAge,MaxAge) :-
@@ -130,12 +125,12 @@ suggest_from_max_age(MaxAge,TouristAttraction,Province,Region,Category,Rating,Mi
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category,Rating).
 
 expensiveness_from_cost(Cost,Expensiveness) :-
-  (Cost<500
-    -> Expensiveness=cheap
-  ; Cost<2500
-    -> Expensiveness=affordable
+  (Cost<500 ->
+    Expensiveness='Cheap'
+  ; Cost<2500 ->
+    Expensiveness='Affordable'
   ;
-    Expensiveness=expensive
+    Expensiveness='Expensive'
   ).
 
 suggest_from_cost(Expensiveness,TouristAttraction,Province,Region,Category,Rating,MinCost,MaxCost) :-
@@ -163,15 +158,15 @@ suggest_from_max_cost(MaxCost,TouristAttraction,Province,Region,Category,Rating,
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category,Rating).
 
 weather_from_temperature(Temp,Weather) :-
-  (Temp<25
-    -> Weather=cold
-  ; Temp<29
-    -> Weather=moderate
+  (Temp<25 ->
+    Weather='Cold'
+  ; Temp<29 ->
+    Weather='Moderate'
   ;
-    Weather=hot
+    Weather='Hot'
   ).
 
-suggest_from_weather(Weather,TouristAttraction,Province,Region,Season,Category,Rating) :-
+suggest_from_weather(Weather,TouristAttraction,Province,Region,Season,AvgTemp,Category,Rating) :-
   seasons:season_average_temp(SeasonID,SeasonAvgTemp),
   weather_from_temperature(SeasonAvgTemp,Weather),
   seasons:season_in_region(SeasonID,RegionID),
@@ -182,5 +177,6 @@ suggest_from_weather(Weather,TouristAttraction,Province,Region,Season,Category,R
   provinces:province_name(ProvinceID,Province),
   regions:region_name(RegionID,Region),
   seasons:season_name(SeasonID,Season),
+  seasons:season_average_temp(SeasonID,AvgTemp),
   categories:category_name(CategoryID,Category),
   tourist_attractions:tourist_attraction_rating(TouristAttractionID,Rating).

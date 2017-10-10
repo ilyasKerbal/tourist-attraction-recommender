@@ -78,83 +78,83 @@ province_id(75).
 province_id(76).
 province_id(77).
 
-province_name(1,amnat_charoen).
-province_name(2,ang_thong).
-province_name(3,bangkok).
-province_name(4,bueng_kan).
-province_name(5,buriram).
-province_name(6,chachoengsao).
-province_name(7,chai_nat).
-province_name(8,chaiyaphum).
-province_name(9,chanthaburi).
-province_name(10,chiang_mai).
-province_name(11,chiang_rai).
-province_name(12,chon_buri).
-province_name(13,chumphon).
-province_name(14,kalasin).
-province_name(15,kamphaeng_phet).
-province_name(16,kanchanaburi).
-province_name(17,khon_kaen).
-province_name(18,krabi).
-province_name(19,lampang).
-province_name(20,lamphun).
-province_name(21,loei).
-province_name(22,lop_buri).
-province_name(23,mae_hong_son).
-province_name(24,maha_sarakham).
-province_name(25,mukdahan).
-province_name(26,nakhon_nayok).
-province_name(27,nakhon_pathom).
-province_name(28,nakhon_phanom).
-province_name(29,nakhon_ratchasima).
-province_name(30,nakhon_sawan).
-province_name(31,nakhon_si_thammarat).
-province_name(32,nan).
-province_name(33,narathiwat).
-province_name(34,nong_bua_lamphu).
-province_name(35,nong_khai).
-province_name(36,nonthaburi).
-province_name(37,pathum_thani).
-province_name(38,pattani).
-province_name(39,phang_nga).
-province_name(40,phatthalung).
-province_name(41,phayao).
-province_name(42,phetchabun).
-province_name(43,phetchaburi).
-province_name(44,phichit).
-province_name(45,phitsanulok).
-province_name(46,phra_nakhon_si_ayutthaya).
-province_name(47,phrae).
-province_name(48,phuket).
-province_name(49,prachin_buri).
-province_name(50,prachuap_khiri_khan).
-province_name(51,ranong).
-province_name(52,ratchaburi).
-province_name(53,rayong).
-province_name(54,roi_et).
-province_name(55,sa_kaeo).
-province_name(56,sakon_nakhon).
-province_name(57,samut_prakan).
-province_name(58,samut_sakhon).
-province_name(59,samut_songkhram).
-province_name(60,sara_buri).
-province_name(61,satun).
-province_name(62,sing_buri).
-province_name(63,sisaket).
-province_name(64,songkhla).
-province_name(65,sukhothai).
-province_name(66,suphan_buri).
-province_name(67,surat_thani).
-province_name(68,surin).
-province_name(69,tak).
-province_name(70,trang).
-province_name(71,trat).
-province_name(72,ubon_ratchathani).
-province_name(73,udon_thani).
-province_name(74,uthai_thani).
-province_name(75,uttaradit).
-province_name(76,yala).
-province_name(77,yasothon).
+province_name(1,'Amnat Charoen').
+province_name(2,'Ang Thong').
+province_name(3,'Bangkok').
+province_name(4,'Bueng Kan').
+province_name(5,'Buriram').
+province_name(6,'Chachoengsao').
+province_name(7,'Chai Nat').
+province_name(8,'Chaiyaphum').
+province_name(9,'Chanthaburi').
+province_name(10,'Chiang Mai').
+province_name(11,'Chiang Rai').
+province_name(12,'Chon Buri').
+province_name(13,'Chumphon').
+province_name(14,'Kalasin').
+province_name(15,'Kamphaeng Phet').
+province_name(16,'Kanchanaburi').
+province_name(17,'Khon Kaen').
+province_name(18,'Krabi').
+province_name(19,'Lampang').
+province_name(20,'Lamphun').
+province_name(21,'Loei').
+province_name(22,'Lop Buri').
+province_name(23,'Mae Hong Son').
+province_name(24,'Maha Sarakham').
+province_name(25,'Mukdahan').
+province_name(26,'Nakhon Nayok').
+province_name(27,'Nakhon Pathom').
+province_name(28,'Nakhon Phanom').
+province_name(29,'Nakhon Ratchasima').
+province_name(30,'Nakhon Sawan').
+province_name(31,'Nakhon Si Thammarat').
+province_name(32,'Nan').
+province_name(33,'Narathiwat').
+province_name(34,'Nong Bua Lamphu').
+province_name(35,'Nong Khai').
+province_name(36,'Nonthaburi').
+province_name(37,'Pathum Thani').
+province_name(38,'Pattani').
+province_name(39,'Phang Nga').
+province_name(40,'Phatthalung').
+province_name(41,'Phayao').
+province_name(42,'Phetchabun').
+province_name(43,'Phetchaburi').
+province_name(44,'Phichit').
+province_name(45,'Phitsanulok').
+province_name(46,'Phra Nakhon Si Ayutthaya').
+province_name(47,'Phrae').
+province_name(48,'Phuket').
+province_name(49,'Prachin Buri').
+province_name(50,'Prachuap Khiri Khan').
+province_name(51,'Ranong').
+province_name(52,'Ratchaburi').
+province_name(53,'Rayong').
+province_name(54,'Roi Et').
+province_name(55,'Sa Kaeo').
+province_name(56,'Sakon Nakhon').
+province_name(57,'Samut Prakan').
+province_name(58,'Samut Sakhon').
+province_name(59,'Samut Songkhram').
+province_name(60,'Sara Buri').
+province_name(61,'Satun').
+province_name(62,'Sing Buri').
+province_name(63,'Sisaket').
+province_name(64,'Songkhla').
+province_name(65,'Sukhothai').
+province_name(66,'Suphan Buri').
+province_name(67,'Surat Thani').
+province_name(68,'Surin').
+province_name(69,'Tak').
+province_name(70,'Trang').
+province_name(71,'Trat').
+province_name(72,'Ubon Ratchathani').
+province_name(73,'Udon Thani').
+province_name(74,'Uthai Thani').
+province_name(75,'Uttaradit').
+province_name(76,'Yala').
+province_name(77,'Yasothon').
 
 province_in_region(1,2).
 province_in_region(2,3).
