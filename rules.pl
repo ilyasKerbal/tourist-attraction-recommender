@@ -27,17 +27,17 @@ suggest_from_activity(Activity,TouristAttraction,Province,Region,Category,Rating
 
 time_from_opening_time(OpeningTime,Time) :-
   (OpeningTime=<5.00
-    -> Time=early_morning
+    -> Time='Early Morning'
   ; OpeningTime=<10.00
-    -> Time=morning
+    -> Time='Morning'
   ; OpeningTime=<13.00
-    -> Time=noon
+    -> Time='Noon'
   ; OpeningTime=<16.00
-    -> Time=afternoon
+    -> Time='Afternoon'
   ; OpeningTime=<19.00
-    -> Time=evening
+    -> Time='Evening'
   ;
-    Time=night
+    Time='Night'
   ).
 
 suggest_from_opening_hours(Time,TouristAttraction,Province,Region,Category,Rating,OpeningTimeFormatted,ClosingTimeFormatted) :-
@@ -89,15 +89,15 @@ suggest_from_opening_now(TouristAttraction,Province,Region,Category,Rating,Openi
 
 age_group_from_age(Age,AgeGroup) :-
   (Age<13
-    -> AgeGroup=kids
+    -> AgeGroup='Kids'
   ; Age<20
-    -> AgeGroup=teenagers
+    -> AgeGroup='Teenagers'
   ; Age<25
-    -> AgeGroup=young_adults
+    -> AgeGroup='Young Adults'
   ; Age<60
-    -> AgeGroup=middle_ages
+    -> AgeGroup='Middle Aged'
   ;
-    AgeGroup=elders
+    AgeGroup='Elders'
   ).
 
 suggest_from_age(AgeGroup,TouristAttraction,Province,Region,Category,Rating,MinAge,MaxAge) :-
@@ -126,11 +126,11 @@ suggest_from_max_age(MaxAge,TouristAttraction,Province,Region,Category,Rating,Mi
 
 expensiveness_from_cost(Cost,Expensiveness) :-
   (Cost<500
-    -> Expensiveness=cheap
+    -> Expensiveness='Cheap'
   ; Cost<2500
-    -> Expensiveness=affordable
+    -> Expensiveness='Affordable'
   ;
-    Expensiveness=expensive
+    Expensiveness='Expensive'
   ).
 
 suggest_from_cost(Expensiveness,TouristAttraction,Province,Region,Category,Rating,MinCost,MaxCost) :-
@@ -159,11 +159,11 @@ suggest_from_max_cost(MaxCost,TouristAttraction,Province,Region,Category,Rating,
 
 weather_from_temperature(Temp,Weather) :-
   (Temp<25
-    -> Weather=cold
+    -> Weather='Cold'
   ; Temp<29
-    -> Weather=moderate
+    -> Weather='Moderate'
   ;
-    Weather=hot
+    Weather='Hot'
   ).
 
 suggest_from_weather(Weather,TouristAttraction,Province,Region,Season,AvgTemp,Category,Rating) :-
