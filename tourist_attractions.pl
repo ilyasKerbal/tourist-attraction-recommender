@@ -364,7 +364,7 @@ tourist_attraction_name(144,super_divers).
 tourist_attraction_name(145,sharkey_scuba).
 tourist_attraction_name(146,ton_mai_spa).
 tourist_attraction_name(147,dasada_gallery).
-tourist_attraction_name(148,lord_buddha_s_footprints).
+tourist_attraction_name(148,lord_buddhas_footprints).
 tourist_attraction_name(149,cicada_market).
 tourist_attraction_name(150,ao_manao).
 tourist_attraction_name(151,hua_hin_beach).
@@ -429,7 +429,7 @@ tourist_attraction_name(209,ko_thepho).
 tourist_attraction_name(210,sirikit_dam).
 tourist_attraction_name(211,phu_soi_dao_national_park).
 tourist_attraction_name(212,piyamit_tunnels).
-tourist_attraction_name(213,world_s_largest_mailbox).
+tourist_attraction_name(213,worlds_largest_mailbox).
 tourist_attraction_name(214,winter_flower_garden).
 tourist_attraction_name(215,phaya_thaen_public_park).
 tourist_attraction_name(216,wat_pa_keong).
@@ -1155,7 +1155,7 @@ tourist_attraction_in_category(67,31).
 tourist_attraction_in_category(68,2).
 tourist_attraction_in_category(69,38).
 tourist_attraction_in_category(70,41).
-tourist_attraction_in_category(71,0).
+tourist_attraction_in_category(71,11).
 tourist_attraction_in_category(72,21).
 tourist_attraction_in_category(73,31).
 tourist_attraction_in_category(74,31).
