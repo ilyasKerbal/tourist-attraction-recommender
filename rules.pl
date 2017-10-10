@@ -5,15 +5,6 @@
 :- use_module(activities,[]).
 :- use_module(seasons,[]).
 
-weather_from_temperature(Temp,Weather) :-
-  (Temp<25
-    -> Weather=cold
-  ; Temp<29
-    -> Weather=moderate
-  ;
-    Weather=hot
-  ).
-
 suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category) :-
   activities:activity_in_category(ActivityID,CategoryID),
   tourist_attractions:tourist_attraction_in_category(TouristAttractionID,CategoryID),
@@ -28,43 +19,84 @@ suggest_from_activity(Activity,TouristAttraction,Province,Region,Category) :-
   activities:activity_name(ActivityID,Activity),
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category).
 
+age_group_from_age(Age,AgeGroup) :-
+  (Age<13
+    -> AgeGroup=kids
+  ; Age<20
+    -> AgeGroup=teenagers
+  ; Age<25
+    -> AgeGroup=young_adults
+  ; Age<60
+    -> AgeGroup=middle_ages
+  ;
+    AgeGroup=elders
+  ).
+
+suggest_from_age(AgeGroup,TouristAttraction,Province,Region,Category,MinAge,MaxAge) :-
+  activities:activity_min_age(_,MinAge),
+  age_group_from_age(MinAge,AgeGroup),
+  suggest_from_min_age(MinAge,TouristAttraction,Province,Region,Category,MaxAge).
+
 suggest_from_age(MinAge,MaxAge,TouristAttraction,Province,Region,Category) :-
   activities:activity_min_age(ActivityID,Min),
   activities:activity_max_age(ActivityID,Max),
-  abs(MinAge-Min)<5,
-  abs(MaxAge-Max)<5,
+  abs(MinAge-Min)=<5,
+  abs(MaxAge-Max)=<5,
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category).
 
 suggest_from_min_age(MinAge,TouristAttraction,Province,Region,Category,MaxAge) :-
   activities:activity_min_age(ActivityID,Min),
   activities:activity_max_age(ActivityID,MaxAge),
-  abs(MinAge-Min)<5,
+  abs(MinAge-Min)=<5,
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category).
 
 suggest_from_max_age(MaxAge,TouristAttraction,Province,Region,Category,MinAge) :-
   activities:activity_min_age(ActivityID,MinAge),
   activities:activity_max_age(ActivityID,Max),
-  abs(MaxAge-Max)<5,
+  abs(MaxAge-Max)=<5,
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category).
+
+expensiveness_from_cost(Cost,Expensiveness) :-
+  (Cost<500
+    -> Expensiveness=cheap
+  ; Cost<2500
+    -> Expensiveness=affordable
+  ;
+    Expensiveness=expensive
+  ).
+
+suggest_from_cost(Expensiveness,TouristAttraction,Province,Region,Category,MinCost,MaxCost) :-
+  activities:activity_min_cost(_,MinCost),
+  expensiveness_from_cost(MinCost,Expensiveness),
+  suggest_from_min_cost(MinCost,TouristAttraction,Province,Region,Category,MaxCost).
 
 suggest_from_cost(MinCost,MaxCost,TouristAttraction,Province,Region,Category) :-
   activities:activity_min_cost(ActivityID,Min),
   activities:activity_max_cost(ActivityID,Max),
-  abs(MinCost-Min)<1000,
-  abs(MaxCost-Max)<1000,
+  abs(MinCost-Min)=<1000,
+  abs(MaxCost-Max)=<1000,
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category).
 
 suggest_from_min_cost(MinCost,TouristAttraction,Province,Region,Category,MaxCost) :-
   activities:activity_min_cost(ActivityID,Min),
   activities:activity_max_cost(ActivityID,MaxCost),
-  abs(MinCost-Min)<1000,
+  abs(MinCost-Min)=<1000,
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category).
 
 suggest_from_max_cost(MaxCost,TouristAttraction,Province,Region,Category,MinCost) :-
   activities:activity_min_cost(ActivityID,MinCost),
   activities:activity_max_cost(ActivityID,Max),
-  abs(MaxCost-Max)<1000,
+  abs(MaxCost-Max)=<1000,
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category).
+
+weather_from_temperature(Temp,Weather) :-
+  (Temp<25
+    -> Weather=cold
+  ; Temp<29
+    -> Weather=moderate
+  ;
+    Weather=hot
+  ).
 
 suggest_from_weather(Weather,TouristAttraction,Province,Region,Season,Category) :-
   seasons:season_average_temp(SeasonID,SeasonAvgTemp),
