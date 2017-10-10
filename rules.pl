@@ -26,16 +26,16 @@ suggest_from_activity(Activity,TouristAttraction,Province,Region,Category,Rating
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category,Rating).
 
 time_from_opening_time(OpeningTime,Time) :-
-  (OpeningTime=<5.00
-    -> Time='Early Morning'
-  ; OpeningTime=<10.00
-    -> Time='Morning'
-  ; OpeningTime=<13.00
-    -> Time='Noon'
-  ; OpeningTime=<16.00
-    -> Time='Afternoon'
-  ; OpeningTime=<19.00
-    -> Time='Evening'
+  (OpeningTime=<5.00 ->
+    Time='Early Morning'
+  ; OpeningTime=<10.00 ->
+    Time='Morning'
+  ; OpeningTime=<13.00 ->
+    Time='Noon'
+  ; OpeningTime=<16.00 ->
+    Time='Afternoon'
+  ; OpeningTime=<19.00 ->
+    Time='Evening'
   ;
     Time='Night'
   ).
@@ -88,14 +88,14 @@ suggest_from_opening_now(TouristAttraction,Province,Region,Category,Rating,Openi
   suggest_from_tourist_attraction(TouristAttraction,Province,Region,Category,Rating).
 
 age_group_from_age(Age,AgeGroup) :-
-  (Age<13
-    -> AgeGroup='Kids'
-  ; Age<20
-    -> AgeGroup='Teenagers'
-  ; Age<25
-    -> AgeGroup='Young Adults'
-  ; Age<60
-    -> AgeGroup='Middle Aged'
+  (Age<13 ->
+    AgeGroup='Kids'
+  ; Age<20 ->
+    AgeGroup='Teenagers'
+  ; Age<25 ->
+    AgeGroup='Young Adults'
+  ; Age<60 ->
+    AgeGroup='Middle Aged'
   ;
     AgeGroup='Elders'
   ).
@@ -125,10 +125,10 @@ suggest_from_max_age(MaxAge,TouristAttraction,Province,Region,Category,Rating,Mi
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category,Rating).
 
 expensiveness_from_cost(Cost,Expensiveness) :-
-  (Cost<500
-    -> Expensiveness='Cheap'
-  ; Cost<2500
-    -> Expensiveness='Affordable'
+  (Cost<500 ->
+    Expensiveness='Cheap'
+  ; Cost<2500 ->
+    Expensiveness='Affordable'
   ;
     Expensiveness='Expensive'
   ).
@@ -158,10 +158,10 @@ suggest_from_max_cost(MaxCost,TouristAttraction,Province,Region,Category,Rating,
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category,Rating).
 
 weather_from_temperature(Temp,Weather) :-
-  (Temp<25
-    -> Weather='Cold'
-  ; Temp<29
-    -> Weather='Moderate'
+  (Temp<25 ->
+    Weather='Cold'
+  ; Temp<29 ->
+    Weather='Moderate'
   ;
     Weather='Hot'
   ).
