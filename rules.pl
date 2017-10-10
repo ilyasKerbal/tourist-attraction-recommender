@@ -1,9 +1,4 @@
-:- use_module(regions,[]).
-:- use_module(provinces,[]).
-:- use_module(tourist_attractions,[]).
-:- use_module(categories,[]).
-:- use_module(activities,[]).
-:- use_module(seasons,[]).
+:- module(rules,[]).
 
 suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category,Rating) :-
   activities:activity_in_category(ActivityID,CategoryID),
