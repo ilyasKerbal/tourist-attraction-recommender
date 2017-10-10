@@ -166,7 +166,7 @@ weather_from_temperature(Temp,Weather) :-
     Weather=hot
   ).
 
-suggest_from_weather(Weather,TouristAttraction,Province,Region,Season,Category,Rating) :-
+suggest_from_weather(Weather,TouristAttraction,Province,Region,Season,AvgTemp,Category,Rating) :-
   seasons:season_average_temp(SeasonID,SeasonAvgTemp),
   weather_from_temperature(SeasonAvgTemp,Weather),
   seasons:season_in_region(SeasonID,RegionID),
@@ -177,5 +177,6 @@ suggest_from_weather(Weather,TouristAttraction,Province,Region,Season,Category,R
   provinces:province_name(ProvinceID,Province),
   regions:region_name(RegionID,Region),
   seasons:season_name(SeasonID,Season),
+  seasons:season_average_temp(SeasonID,AvgTemp),
   categories:category_name(CategoryID,Category),
   tourist_attractions:tourist_attraction_rating(TouristAttractionID,Rating).

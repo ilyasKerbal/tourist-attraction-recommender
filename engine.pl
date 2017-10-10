@@ -261,15 +261,16 @@ thai_paradise_query(Message) :-
     ; Choice=5 ->
       writeln('Please select weather'),
       read(Weather),
-      findall([TA,PR,RE,SE,CA,RA],rules:suggest_from_weather(Weather,TA,PR,RE,SE,CA,RA),List),
+      findall([TA,PR,RE,SE,AT,CA,RA],rules:suggest_from_weather(Weather,TA,PR,RE,SE,AT,CA,RA),List),
       length(List,Len),
       random(0,Len,Index),
-      nth0(Index,List,[TouristAttraction,Province,Region,Season,Category,Rating]),
+      nth0(Index,List,[TouristAttraction,Province,Region,Season,AvgTemp,Category,Rating]),
       writeln('\nResult found!\n'),
       format('Tourist Attraction: ~w\n',TouristAttraction),
       format('Province: ~w\n',Province),
       format('Region: ~w\n',Region),
       format('Season: ~w\n',Season),
+      format('Average Temperature: ~w\n',AvgTemp),
       format('Category: ~w\n',Category),
       format('Rating: ~w\n',Rating)
     ),
