@@ -15,9 +15,80 @@ suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category) 
   regions:region_name(RegionID,Region),
   categories:category_name(CategoryID,Category).
 
+suggest_from_tourist_attraction(TouristAttraction,Province,Region,Category) :-
+  tourist_attractions:tourist_attraction_in_category(TouristAttractionID,CategoryID),
+  tourist_attractions:tourist_attraction_in_province(TouristAttractionID,ProvinceID),
+  provinces:province_in_region(ProvinceID,RegionID),
+  tourist_attractions:tourist_attraction_name(TouristAttractionID,TouristAttraction),
+  provinces:province_name(ProvinceID,Province),
+  regions:region_name(RegionID,Region),
+  categories:category_name(CategoryID,Category).
+
 suggest_from_activity(Activity,TouristAttraction,Province,Region,Category) :-
   activities:activity_name(ActivityID,Activity),
   suggest_from_activity_id(ActivityID,TouristAttraction,Province,Region,Category).
+
+time_from_opening_time(OpeningTime,Time) :-
+  (OpeningTime=<5.00
+    -> Time=early_morning
+  ; OpeningTime=<10.00
+    -> Time=morning
+  ; OpeningTime=<13.00
+    -> Time=noon
+  ; OpeningTime=<16.00
+    -> Time=afternoon
+  ; OpeningTime=<19.00
+    -> Time=evening
+  ;
+    Time=night
+  ).
+
+suggest_from_opening_hours(Time,TouristAttraction,Province,Region,Category,OpeningTimeFormatted,ClosingTimeFormatted) :-
+  tourist_attractions:tourist_attraction_name(_,TouristAttraction),
+  tourist_attractions:tourist_attraction_opening_time(_,OpeningTime),
+  time_from_opening_time(OpeningTime,Time),
+  suggest_from_opening_time(OpeningTime,TouristAttraction,Province,Region,Category,OpeningTimeFormatted,ClosingTimeFormatted).
+
+suggest_from_opening_and_closing_time(OpeningTime,ClosingTime,TouristAttraction,Province,Region,Category,OpeningTimeFormatted,ClosingTimeFormatted) :-
+  tourist_attractions:tourist_attraction_name(TouristAttractionID,TouristAttraction),
+  tourist_attractions:tourist_attraction_opening_time(TouristAttractionID,Opening),
+  tourist_attractions:tourist_attraction_closing_time(TouristAttractionID,Closing),
+  abs(OpeningTime-Opening)=<1,
+  abs(ClosingTime-Closing)=<1,
+  format(atom(OpeningTimeFormatted),'~2f',[OpeningTime]),
+  format(atom(ClosingTimeFormatted),'~2f',[ClosingTime]),
+  suggest_from_tourist_attraction(TouristAttraction,Province,Region,Category).
+
+suggest_from_opening_time(OpeningTime,TouristAttraction,Province,Region,Category,OpeningTimeFormatted,ClosingTimeFormatted) :-
+  tourist_attractions:tourist_attraction_name(TouristAttractionID,TouristAttraction),
+  tourist_attractions:tourist_attraction_opening_time(TouristAttractionID,Opening),
+  tourist_attractions:tourist_attraction_closing_time(TouristAttractionID,ClosingTime),
+  abs(OpeningTime-Opening)=<1,
+  format(atom(OpeningTimeFormatted),'~2f',[Opening]),
+  format(atom(ClosingTimeFormatted),'~2f',[ClosingTime]),
+  suggest_from_tourist_attraction(TouristAttraction,Province,Region,Category).
+
+suggest_from_closing_time(ClosingTime,TouristAttraction,Province,Region,Category,OpeningTimeFormatted,ClosingTimeFormatted) :-
+  tourist_attractions:tourist_attraction_name(TouristAttractionID,TouristAttraction),
+  tourist_attractions:tourist_attraction_opening_time(TouristAttractionID,OpeningTime),
+  tourist_attractions:tourist_attraction_closing_time(TouristAttractionID,Closing),
+  abs(ClosingTime-Closing)=<1,
+  format(atom(OpeningTimeFormatted),'~2f',[OpeningTime]),
+  format(atom(ClosingTimeFormatted),'~2f',[Closing]),
+  suggest_from_tourist_attraction(TouristAttraction,Province,Region,Category).
+
+suggest_from_opening_now(TouristAttraction,Province,Region,Category,OpeningTimeFormatted,ClosingTimeFormatted) :-
+  tourist_attractions:tourist_attraction_name(TouristAttractionID,TouristAttraction),
+  tourist_attractions:tourist_attraction_opening_time(TouristAttractionID,OpeningTime),
+  tourist_attractions:tourist_attraction_closing_time(TouristAttractionID,ClosingTime),
+  get_time(Time),
+  stamp_date_time(Time,date(_,_,_,H,_,_,_,_,_),'UTC'),
+  Hour is H+7,
+  Hour>OpeningTime,
+  Hour<ClosingTime,
+  format(atom(OpeningTimeFormatted),'~2f',[OpeningTime]),
+  format(atom(ClosingTimeFormatted),'~2f',[ClosingTime]),
+  suggest_from_tourist_attraction(TouristAttraction,Province,Region,Category).
 
 age_group_from_age(Age,AgeGroup) :-
   (Age<13
