@@ -216,6 +216,27 @@ tourist_attraction_id(213).
 tourist_attraction_id(214).
 tourist_attraction_id(215).
 tourist_attraction_id(216).
+tourist_attraction_id(217).
+tourist_attraction_id(218).
+tourist_attraction_id(219).
+tourist_attraction_id(220).
+tourist_attraction_id(221).
+tourist_attraction_id(222).
+tourist_attraction_id(223).
+tourist_attraction_id(224).
+tourist_attraction_id(225).
+tourist_attraction_id(226).
+tourist_attraction_id(227).
+tourist_attraction_id(228).
+tourist_attraction_id(229).
+tourist_attraction_id(230).
+tourist_attraction_id(231).
+tourist_attraction_id(232).
+tourist_attraction_id(233).
+tourist_attraction_id(234).
+tourist_attraction_id(235).
+tourist_attraction_id(236).
+tourist_attraction_id(237).
 
 tourist_attraction_name(1,'Wat Tham Saeng Phet').
 tourist_attraction_name(2,'Phusa Dok Bua').
@@ -433,6 +454,27 @@ tourist_attraction_name(213,'Worlds Largest Mailbox').
 tourist_attraction_name(214,'Winter Flower Garden').
 tourist_attraction_name(215,'Phaya Thaen Public Park').
 tourist_attraction_name(216,'Wat Pa Keong').
+tourist_attraction_name(217,'Pantasanya Church').
+tourist_attraction_name(218,'Saint Joseph Catholic Church').
+tourist_attraction_name(219,'Major Cineplex Central ').
+tourist_attraction_name(220,'Lido Multiplex').
+tourist_attraction_name(221,'Prince Mahidol Hall').
+tourist_attraction_name(222,'Impact, Muang Thong Thani').
+tourist_attraction_name(223,'Agro-tourism ').
+tourist_attraction_name(224,'Bang Sai Orchid Garden').
+tourist_attraction_name(225,'Supreme Artist Hall').
+tourist_attraction_name(226,'Thai Human Imagery Museum').
+tourist_attraction_name(227,'Phu Lom Lo').
+tourist_attraction_name(228,'Doi Hua Mot').
+tourist_attraction_name(229,'Alpine Golf Club').
+tourist_attraction_name(230,'Ayodhya Links Golf').
+tourist_attraction_name(231,'National Library').
+tourist_attraction_name(232,'Thailand Knowledge Park').
+tourist_attraction_name(233,'Rajamangala Stadium').
+tourist_attraction_name(234,'Chonburi Stadium').
+tourist_attraction_name(235,'Coliseum Cinema').
+tourist_attraction_name(236,'Paragon Cineplex').
+tourist_attraction_name(237,'JEATH War Museum').
 
 tourist_attraction_opening_time(1,8.00).
 tourist_attraction_opening_time(2,8.00).
@@ -650,6 +692,27 @@ tourist_attraction_opening_time(213,8.00).
 tourist_attraction_opening_time(214,8.00).
 tourist_attraction_opening_time(215,8.30).
 tourist_attraction_opening_time(216,0.00).
+tourist_attraction_opening_time(217,9.00).
+tourist_attraction_opening_time(218,9.00).
+tourist_attraction_opening_time(219,10.00).
+tourist_attraction_opening_time(220,0.00).
+tourist_attraction_opening_time(221,9.00).
+tourist_attraction_opening_time(222,9.00).
+tourist_attraction_opening_time(223,9.00).
+tourist_attraction_opening_time(224,9.00).
+tourist_attraction_opening_time(225,9.00).
+tourist_attraction_opening_time(226,8.00).
+tourist_attraction_opening_time(227,0.00).
+tourist_attraction_opening_time(228,0.00).
+tourist_attraction_opening_time(229,6.00).
+tourist_attraction_opening_time(230,6.00).
+tourist_attraction_opening_time(231,9.00).
+tourist_attraction_opening_time(232,10.00).
+tourist_attraction_opening_time(233,0.00).
+tourist_attraction_opening_time(234,0.00).
+tourist_attraction_opening_time(235,10.00).
+tourist_attraction_opening_time(236,10.00).
+tourist_attraction_opening_time(237,8.00).
 
 tourist_attraction_closing_time(1,17.00).
 tourist_attraction_closing_time(2,17.00).
@@ -867,6 +930,27 @@ tourist_attraction_closing_time(213,16.00).
 tourist_attraction_closing_time(214,20.00).
 tourist_attraction_closing_time(215,16.30).
 tourist_attraction_closing_time(216,23.59).
+tourist_attraction_closing_time(217,16.00).
+tourist_attraction_closing_time(218,16.00).
+tourist_attraction_closing_time(219,23.30).
+tourist_attraction_closing_time(220,23.00).
+tourist_attraction_closing_time(221,16.00).
+tourist_attraction_closing_time(222,16.00).
+tourist_attraction_closing_time(223,17.00).
+tourist_attraction_closing_time(224,17.00).
+tourist_attraction_closing_time(225,16.00).
+tourist_attraction_closing_time(226,18.00).
+tourist_attraction_closing_time(227,23.59).
+tourist_attraction_closing_time(228,23.59).
+tourist_attraction_closing_time(229,18.00).
+tourist_attraction_closing_time(230,18.00).
+tourist_attraction_closing_time(231,18.30).
+tourist_attraction_closing_time(232,20.30).
+tourist_attraction_closing_time(233,23.59).
+tourist_attraction_closing_time(234,23.59).
+tourist_attraction_closing_time(235,23.30).
+tourist_attraction_closing_time(236,23.30).
+tourist_attraction_closing_time(237,18.30).
 
 tourist_attraction_rating(1,4).
 tourist_attraction_rating(2,3.5).
@@ -1084,6 +1168,27 @@ tourist_attraction_rating(213,4).
 tourist_attraction_rating(214,4).
 tourist_attraction_rating(215,4).
 tourist_attraction_rating(216,4.5).
+tourist_attraction_rating(217,4).
+tourist_attraction_rating(218,4.5).
+tourist_attraction_rating(219,4.5).
+tourist_attraction_rating(220,4.5).
+tourist_attraction_rating(221,5).
+tourist_attraction_rating(222,5).
+tourist_attraction_rating(223,4).
+tourist_attraction_rating(224,4.5).
+tourist_attraction_rating(225,5).
+tourist_attraction_rating(226,4).
+tourist_attraction_rating(227,4.5).
+tourist_attraction_rating(228,4).
+tourist_attraction_rating(229,4.5).
+tourist_attraction_rating(230,5).
+tourist_attraction_rating(231,4.5).
+tourist_attraction_rating(232,5).
+tourist_attraction_rating(233,4).
+tourist_attraction_rating(234,4).
+tourist_attraction_rating(235,4.5).
+tourist_attraction_rating(236,4.5).
+tourist_attraction_rating(237,4.5).
 
 tourist_attraction_in_category(1,38).
 tourist_attraction_in_category(2,31).
@@ -1301,6 +1406,27 @@ tourist_attraction_in_category(213,24).
 tourist_attraction_in_category(214,34).
 tourist_attraction_in_category(215,34).
 tourist_attraction_in_category(216,38).
+tourist_attraction_in_category(217,8).
+tourist_attraction_in_category(218,8).
+tourist_attraction_in_category(219,9).
+tourist_attraction_in_category(220,9).
+tourist_attraction_in_category(221,10).
+tourist_attraction_in_category(222,10).
+tourist_attraction_in_category(223,14).
+tourist_attraction_in_category(224,14).
+tourist_attraction_in_category(225,15).
+tourist_attraction_in_category(226,15).
+tourist_attraction_in_category(227,17).
+tourist_attraction_in_category(228,17).
+tourist_attraction_in_category(229,18).
+tourist_attraction_in_category(230,18).
+tourist_attraction_in_category(231,25).
+tourist_attraction_in_category(232,25).
+tourist_attraction_in_category(233,37).
+tourist_attraction_in_category(234,37).
+tourist_attraction_in_category(235,39).
+tourist_attraction_in_category(236,39).
+tourist_attraction_in_category(237,43).
 
 tourist_attraction_in_province(1,1).
 tourist_attraction_in_province(2,1).
@@ -1518,3 +1644,24 @@ tourist_attraction_in_province(213,76).
 tourist_attraction_in_province(214,76).
 tourist_attraction_in_province(215,77).
 tourist_attraction_in_province(216,77).
+tourist_attraction_in_province(217,3).
+tourist_attraction_in_province(218,46).
+tourist_attraction_in_province(219,10).
+tourist_attraction_in_province(220,3).
+tourist_attraction_in_province(221,27).
+tourist_attraction_in_province(222,3).
+tourist_attraction_in_province(223,42).
+tourist_attraction_in_province(224,46).
+tourist_attraction_in_province(225,37).
+tourist_attraction_in_province(226,27).
+tourist_attraction_in_province(227,21).
+tourist_attraction_in_province(228,69).
+tourist_attraction_in_province(229,37).
+tourist_attraction_in_province(230,46).
+tourist_attraction_in_province(231,3).
+tourist_attraction_in_province(232,3).
+tourist_attraction_in_province(233,3).
+tourist_attraction_in_province(234,12).
+tourist_attraction_in_province(235,48).
+tourist_attraction_in_province(236,3).
+tourist_attraction_in_province(237,16).
